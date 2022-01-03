@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    max-width: 20%;
+    font-family: 'Pushster', cursive;
+    font-weight: 400;
+}
+
+.mi-nav{ 
+    position:fixed-top;
+    background: transparent !important;
+    width: 100%;
+    z-index: 999;  
+}
+
+.carousel-inner{
+    height: 100vh;
+}
+
+h6{
+    font-family: 'Pushster', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+hr{
+    margin: 0;
+}
+
+.seccion1{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: black;
+    color:turquoise;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+}
+
+.col-3{
+    text-align: justify;
+    margin:auto
+}
+
+.seccion2{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+}
+
+.card{
+    background-color: turquoise;
+    width: 20%;
+    margin: auto;
+    height: 26rem;
+}
+
+.card-img-top{
+    height: 160px;
+}
+
+.seccion3{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+}
+
+footer{
+    background-color: turquoise;
+    color: white;
+    padding-top: 5px;
+    height: 50px;
+}
+
+.destacado a{
+    color: white; 
+}
+
+
+
+

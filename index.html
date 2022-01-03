@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <!--CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--CDN Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!--CDN Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+    <!--Link CSS-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--Inicio NAVBAR-->
+    <nav class="mi-nav navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">
+                <img src="assets/img/viajes.svg" class="logo" alt="logo">
+                Viajes Chile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienes-somos">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destacados">Destacados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Fin NAVBAR-->
+    <!--CAROUSEL-->
+    <div id="carouselExampleControls" class="mi-carousel carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="norte">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Fin CAROUSEL-->
+    <!--Section 1-->
+    <section class="d-none d-sm-none d-md-block">
+        <header id="quienes-somos">
+            <h6 class="seccion1">
+                ¿Quiénes somos?
+            </h6>
+            <hr>
+        </header>
+        <div class="row seccion1">
+            <div class="col-3">
+                <i class="fas fa-plane-departure"></i>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, vero molestiae! Repellendus error
+                    quisquam ut officiis excepturi soluta itaque sunt neque, quas, ab nobis iure facere velit? Nisi unde
+                    maxime at sapiente consequuntur quibusdam doloribus, optio nam ad nihil pariatur recusandae
+                    exercitationem tenetur quae, libero iusto veniam, aliquam sed saepe.</p>
+            </div>
+            <div class="col-3">
+                <i class="fas fa-compass"></i>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, vero molestiae! Repellendus error
+                    quisquam ut officiis excepturi soluta itaque sunt neque, quas, ab nobis iure facere velit? Nisi unde
+                    maxime at sapiente consequuntur quibusdam doloribus, optio nam ad nihil pariatur recusandae
+                    exercitationem tenetur quae, libero iusto veniam, aliquam sed saepe.</p>
+            </div>
+            <div class="col-3">
+                <i class="fas fa-hotel"></i>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, vero molestiae! Repellendus error
+                    quisquam ut officiis excepturi soluta itaque sunt neque, quas, ab nobis iure facere velit? Nisi unde
+                    maxime at sapiente consequuntur quibusdam doloribus, optio nam ad nihil pariatur recusandae
+                    exercitationem tenetur quae, libero iusto veniam, aliquam sed saepe.</p>
+            </div>
+        </div>
+    </section>
+    <!--Fin seccion 1-->
+    <!--Seccion 2-->
+    <section>
+        <header id="destacados">
+            <h6 class="seccion2">
+                Destacados
+            </h6>
+            <hr>
+        </header>
+        <div class="row seccion2">
+            <div class="card">
+                <img src="assets/img/card1.jpg" class="card-img-top" alt="Torres del paine">
+                <div class="card-body">
+                    <h5 class="card-title">Torres del paine</h5>
+                    <p class="card-text">Grupo de tres enormes torres de granito modeladas a lo largo de doce millones
+                        de años por la fuerza del hielo glacial.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/card2.jpg" class="card-img-top" alt="Glaciar Gray">
+                <div class="card-body">
+                    <h5 class="card-title">Glaciar Gray</h5>
+                    <p class="card-text">Impresionante masa de hielo de 6 kilómetros de ancho y más de 30 metros de
+                        altura, famoso también por su franja de tierra en medio del glaciar que permite observarlo desde
+                        dentro.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/card3.jpg" class="card-img-top" alt="Cabo de hornos">
+                <div class="card-body">
+                    <h5 class="card-title">Cabo de hornos</h5>
+                    <p class="card-text">Puerta de entrada a la Antártica, un sitio considerado como uno de los mayores
+                        retos náuticos del planeta, donde es posible navegar entre esculturas de hielo y fiordos.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/img/card4.jpg" class="card-img-top" alt="Catedral de Marmol">
+                <div class="card-body">
+                    <h5 class="card-title">Catedral de Mármol</h5>
+                    <p class="card-text">Maravilla natural en las costas del Lago General Carrera, una estructura
+                        mineral moldeada por los efectos de la erosión, configurando numerosos túneles y singulares
+                        formas escultóricas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fin seccion 2-->
+    <!--Seccion 3-->
+    <section id="contacto">
+        <header id="Contacto">
+            <h6 class="seccion3">
+                Contacto
+            </h6>
+            <hr>
+        </header>
+        <div data-tf-widget="h9tdzddB" data-tf-iframe-props="title=My typeform" style="width:100%;height:400px;"></div>
+        <script src="//embed.typeform.com/next/embed.js"></script>
+    </section>
+    <!--Fin seccion 3-->
+    <!--footer-->
+    <footer>
+        <div class="row mx-5 destacado">
+            <div class="col-2">
+                <h5>VIAJES CHILE</h5>
+            </div>
+            <div class="col-1 ms-auto">
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github-square"></i></a>
+            </div>
+            <div class="col-1">
+                <a href="https://www.linkedin.com/login/es" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="col-1">
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            </div>
+            <div class="col-1">
+                <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!--Fin footer-->
+
+    <!--CDN JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
