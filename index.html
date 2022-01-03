@@ -111,24 +111,25 @@
     <!--Seccion 2-->
     <section>
         <header id="destacados">
-            <h6 class="Tarjetas">
+            <h6 class="tarjetas">
                 Destacados
             </h6>
             <hr>
         </header>
-        <div class="row Tarjetas">
+        <div class="row tarjetas element">
             <div class="card">
                 <img src="assets/img/card1.jpg" class="card-img-top" alt="Torres del paine">
-                <div class="card-body">
-                    <h5 class="card-title">Torres del paine</h5>
-                    <p class="card-text">Grupo de tres enormes torres de granito modeladas a lo largo de doce millones
+                <div class="card-body cb">
+                    <h5 class="card-title" onclick="hide()">Torres del paine</h5>
+                    <p class="card-text ct">Grupo de tres enormes torres de granito modeladas a lo largo de doce
+                        millones
                         de años por la fuerza del hielo glacial.</p>
                 </div>
             </div>
             <div class="card">
                 <img src="assets/img/card2.jpg" class="card-img-top" alt="Glaciar Gray">
                 <div class="card-body">
-                    <h5 class="card-title">Glaciar Gray</h5>
+                    <h5 class="card-title" onclick="hide()">Glaciar Gray</h5>
                     <p class="card-text">Impresionante masa de hielo de 6 kilómetros de ancho y más de 30 metros de
                         altura, famoso también por su franja de tierra en medio del glaciar que permite observarlo desde
                         dentro.</p>
@@ -137,7 +138,7 @@
             <div class="card">
                 <img src="assets/img/card3.jpg" class="card-img-top" alt="Cabo de hornos">
                 <div class="card-body">
-                    <h5 class="card-title">Cabo de hornos</h5>
+                    <h5 class="card-title" onclick="hide()">Cabo de hornos</h5>
                     <p class="card-text">Puerta de entrada a la Antártica, un sitio considerado como uno de los mayores
                         retos náuticos del planeta, donde es posible navegar entre esculturas de hielo y fiordos.</p>
                 </div>
@@ -145,7 +146,7 @@
             <div class="card">
                 <img src="assets/img/card4.jpg" class="card-img-top" alt="Catedral de Marmol">
                 <div class="card-body">
-                    <h5 class="card-title">Catedral de Mármol</h5>
+                    <h5 class="card-title" onclick="hide()">Catedral de Mármol</h5>
                     <p class="card-text">Maravilla natural en las costas del Lago General Carrera, una estructura
                         mineral moldeada por los efectos de la erosión, configurando numerosos túneles y singulares
                         formas escultóricas.</p>
@@ -189,6 +190,7 @@
     <!--Fin footer-->
 
     <!--CDN JavaScript-->
+    <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
