@@ -44,12 +44,18 @@ hr{
     text-align: justify;
     margin:auto
 }
-
+.titulo-destacados{
+    background-color: black;
+    color:white;
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+}
 .tarjetas{
     padding-top: 1em;
     padding-bottom: 1em;
     background-color: black;
-    color:white;
+    color: black;
     text-align: center;
     margin: 0;
     justify-content: center;
