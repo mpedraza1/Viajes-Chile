@@ -14,6 +14,7 @@
     background: transparent !important;
     width: 100%;
     z-index: 999;  
+    transition: all 300ms ease-in-out;
 }
 
 .carousel-inner{
@@ -87,6 +88,6 @@ footer{
     color: white; 
 }
 
-
-
-
+.scroll {
+    background-color: gray!important;
+  }
