@@ -16,6 +16,9 @@
     z-index: 999;  
     transition: all 300ms ease-in-out;
 }
+.scroll {
+    background-color: gray!important;
+  }
 
 .carousel-inner{
     height: 100vh;
@@ -58,7 +61,7 @@ hr{
 
 .card{
     background-color: turquoise;
-    width: 20%;
+    width: 100%;
     margin: auto;
     height: 26rem;
 }
@@ -81,13 +84,10 @@ footer{
     background-color: turquoise;
     color: white;
     padding-top: 13px;
-    height: 50px;
+    height: 60px;
 }
 
 .destacado a{
     color: white; 
 }
 
-.scroll {
-    background-color: gray!important;
-  }
