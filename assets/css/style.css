@@ -11,7 +11,6 @@
 }
 
 .mi-nav{ 
-    position:fixed-top;
     background: transparent !important;
     width: 100%;
     z-index: 999;  
@@ -35,7 +34,7 @@ hr{
     padding-top: 1em;
     padding-bottom: 1em;
     background-color: black;
-    color:turquoise;
+    color:whitesmoke;
     text-align: center;
     margin: 0;
     justify-content: center;
@@ -80,7 +79,7 @@ hr{
 footer{
     background-color: turquoise;
     color: white;
-    padding-top: 5px;
+    padding-top: 13px;
     height: 50px;
 }
 
